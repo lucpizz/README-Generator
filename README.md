@@ -1,6 +1,6 @@
-![GitHub License](https://img.shields.io/badge/License-mit-informational)
-
 # A work in progress
+
+![GitHub License](https://img.shields.io/badge/License-mit-informational)
 
 # README-Generator
 
