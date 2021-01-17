@@ -1,6 +1,6 @@
 # test
   
-  ![License]([![GitHub License](https://img.shields.io/badge/License-apache_2.0-informational)](https://img.shields.io/badge/License-apache_2.0-informational))
+  ![License](![GitHub License](https://img.shields.io/badge/License-apache_2.0-informational))
 
   ---
 
@@ -15,7 +15,7 @@
   ---
 
   ## License
-  This project is under the apache-2.0 opensource agreement.:
+  This project is under the apache-2.0 opensource license agreement: :
   https://choosealicense.com/licenses/apache-2.0/
 
   ---
