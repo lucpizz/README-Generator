@@ -26,7 +26,7 @@ Create a command-line application that dynamically generates a GitHub README.md 
 
 3.  Images directory
 
-    - Video / GIF of installation process and functionality
+    - Test_README_v2.gif - Video / GIF of installation process and functionality
 
 4.  LICENSE
 
