@@ -40,4 +40,4 @@ Create a command-line application that dynamically generates a GitHub README.md 
 
 ## Video of Process and Functionality
 
-![Program Installation Video](./Images/Test_README_v2.gif)
+![Program Installation Video](./Images/Test_README_v3.gif)
