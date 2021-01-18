@@ -1,6 +1,6 @@
 # A work in progress
 
-![GitHub License](https://img.shields.io/badge/License-mit-informational)
+![GitHub License](https://img.shields.io/badge/License-MIT-informational)
 
 # README-Generator
 
@@ -31,6 +31,10 @@ Create a command-line application that dynamically generates a GitHub README.md 
 4.  LICENSE
 
     - MIT License
+
+5.  Test file
+
+    - Test_README.v1.md - test README.md generated through the program
 
 ---
 
