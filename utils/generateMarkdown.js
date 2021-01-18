@@ -3,17 +3,17 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case "apache-2.0":
-      return "![GitHub License](https://img.shields.io/badge/License-apach_2.0-informational)";
+      return "![GitHub License](https://img.shields.io/badge/License-Apach_2.0-informational)";
     case "gpl-3.0":
-      return "![GitHub License](https://img.shields.io/badge/License-gpl_3.0-informational)";
+      return "![GitHub License](https://img.shields.io/badge/License-GPL_3.0-informational)";
     case "mit":
-      return "![GitHub License](https://img.shields.io/badge/License-mit-informational)";
+      return "![GitHub License](https://img.shields.io/badge/License-MIT-informational)";
     case "bsd-2-clause":
-      return "![GitHub License](https://img.shields.io/badge/License-bsd_2_clause-informational)";
+      return "![GitHub License](https://img.shields.io/badge/License-BSD_2_clause-informational)";
     case "bsd-3-clause":
-      return "![GitHub License](https://img.shields.io/badge/License-bsd_3_clause-informational)";
+      return "![GitHub License](https://img.shields.io/badge/License-BSD_3_clause-informational)";
     case "mpl-2.0":
-      return "![GitHub License](https://img.shields.io/badge/License-mpl_2.0-informational)";
+      return "![GitHub License](https://img.shields.io/badge/License-MPL_2.0-informational)";
     case "The-Unlicense":
       return "![GitHub License](https://img.shields.io/badge/License-unlicense-informational)";
   }
