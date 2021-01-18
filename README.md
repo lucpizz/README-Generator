@@ -8,7 +8,7 @@
 
 ## Description
 
-Create a command-line application that dynamically generates a GitHub README.md file from a user's input.
+Create a command-line program that dynamically generates a GitHub README.md file from a user's input.
 
 ---
 
