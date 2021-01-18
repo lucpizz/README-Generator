@@ -11,24 +11,52 @@ const markDown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: "input",
-    name: "name",
-    message: "What is the name of your Repository and/or Project?",
+    name: "title",
+    message: "Please enter the title of your Repository and/or Project: ",
   },
   {
     type: "input",
-    name: "project_description",
-    message: "Please create a project description: ",
+    name: "description",
+    message: "Please enter a project description: ",
   },
   {
     type: "input",
     name: "installation_instructions",
-    message: "Please create your projects installation instructions: ",
+    message: "Please enter your projects installation instructions: ",
+  },
+  {
+    type: "input",
+    name: "usage_information",
+    message: "Please enter your usage information: ",
   },
   {
     type: "list",
     name: "license",
-    message: "Please select a license:",
-    choices: ["MIT", "Apache"],
+    message: "Please select a license type: ",
+    choices: [
+      "apache-2.0",
+      "gpl-3.0",
+      "mit",
+      "bsd-2-clause",
+      "bsd-3-clause",
+      "mpl-2.0",
+      "The-Unlicensed",
+    ],
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "Please enter your contribution: ",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "Please enter your test instructions: ",
+  },
+  {
+    type: "input",
+    name: "questions",
+    message: "Please enter your questions: ",
   },
   {
     type: "input",
@@ -42,34 +70,13 @@ const questions = [
   },
 ];
 
-/*
-const promptUser = () => {
-  return inquirer.prompt(questions);
-};
-
- TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-
-  fs.writeFile(filename, data)
-
-
-}
-
-
-// TODO: Create a function to initialize app
-function init() {
-  //console.log(colors.green("This is cool and is also from Colors"));
-  inquirer.prompt(questions).then((responses) => {
-    console.log(responses);
-  });
-}
-*/
+//Function to prompt user the questions and get their responses to generate README.md
 
 const init = async () => {
   try {
     const answers = await inquirer.prompt(questions);
     const createReadme = markDown(answers);
-    await writeFileAsync("README.md", markDown);
+    await writeFileAsync("Test_README_v1.md", createReadme);
     console.log("Successfully wrote README.md");
   } catch (error) {
     console.log(error);
